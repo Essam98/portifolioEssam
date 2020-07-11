@@ -1,0 +1,830 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- libraries for effective HTML5 in IE -->
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+
+  <!-- Call Laibrary that Makes Animatins In Body -->
+  <link rel="stylesheet" href="css/animate.css">  
+
+  <!-- Call Fonts From GOOGLE-FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Galada&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+
+
+  <!-- Call OWL-CAROUSEL -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!-- Invoc BOOTSTRAB  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Call NORMALIZ For Removing Any Padding and Margin -->
+  <link rel="stylesheet" href="css/normaliz.css">
+
+  <!-- Link Css To Styled The Page -->
+  <link rel="stylesheet" href="css/portifolio.css">
+
+  <!-- This Title Name And His Image -->
+  <title>Essam Portifolio</title>
+  <link rel="icon" href="images.min/feature-zombie.png">
+</head>
+<body>
+
+  <!-- Start Make NavBar Header  -->
+  <header class="">
+    <nav class="container navbar navbar-expand-lg " style="padding: 0;">
+      <a class="navbar-brand" href="#"> 
+        
+          <span>E</span>ssam<span>A</span>lhelo
+
+          <svg style="color: #007399;" width="2em" height="1em" viewBox="0 0 16 16" class="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
+          </svg>
+
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> <svg width="1em" style="color: #007399; font-size: 30px; " height="1em" viewBox="0 0 16 16" class="bi bi-caret-down-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z"/>
+        </svg> </span>
+      </button>
+    
+      <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item homeSection">
+            <a class="nav-link" href="#homeSection"> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item aboutSection">
+            <a class="nav-link" href="#aboutSection"> About </a>
+          </li>
+          <li class="nav-item skillsSection">
+            <a class="nav-link" href="#skillsSection"> Skills</a>
+          </li>
+          <li class="nav-item portfolioSection">
+            <a class="nav-link" href="#portfolioSection"> Portfolios </a>
+          </li>
+          <li class="nav-item imagesSection ">
+            <a class="nav-link" href="#imagesSection"> Images </a>
+          </li>
+          <li class="nav-item contactSection">
+            <a class="nav-link" href="#contactSection"> Contact </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+<!-- End Nav Bar  -->
+
+
+<!-- Now I'll Create The Slider Images Without BOOTSTRAP-->
+
+  <div class="slider-images" id="homeSection">
+    <div class="sliderItem ">
+      <!-- <img src="images/slider_10.png" width="100%" height="100%" alt="incorrect path img"> -->
+      <h1 class=" user-select-none text-center info-img ">
+        It's me Essam Ayman Alhelo <br>
+        Software Engineering <br>
+        Front End Developer <br> 
+      </h1>
+    </div>
+
+    <div class="sliderItem"></div>
+    <div class="sliderItem"></div>
+    <div class="sliderItem"></div>
+    <div class="sliderItem"></div>
+
+    <div class="bullits text-center user-select-none">
+      <ul class="list-unstyled user-select-none">
+        <div class="prev user-select-none"> 
+          <span> 
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-bar-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.854 3.646a.5.5 0 0 1 0 .708L8.207 8l3.647 3.646a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708 0zM4.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 1 0v-13a.5.5 0 0 0-.5-.5z"/>
+            </svg>
+          </span> 
+        </div>
+        <li data-index="0"></li>
+        <li data-index="1"></li>
+        <li data-index="2"></li>
+        <li data-index="3"></li>
+        <li data-index="4"></li>
+        <div class="next user-select-none">
+          <span> 
+             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-bar-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+             <path fill-rule="evenodd" d="M4.146 3.646a.5.5 0 0 0 0 .708L7.793 8l-3.647 3.646a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708 0zM11.5 1a.5.5 0 0 1 .5.5v13a.5.5 0 0 1-1 0v-13a.5.5 0 0 1 .5-.5z"/>
+           </svg> 
+         </span> 
+       </div>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Start Body Page -->
+
+  <!-- Features Section -->
+  <section class="features" id="aboutSection">
+    <div class="container" >
+      <div class="title">
+        <h1>About Me</h1>
+      </div>
+      <div class="row">
+        <!-- First Item  -->
+        <div class="col-md-3 col-xs-6 features-item col-sm-6">
+          
+          <div class="pentagon text-center position-relative">
+            <!-- <i style="height: 100px;"><i> -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="icon"><img src="images/feature-modern.png"  width="100%" height="100%" alt=""></span>
+            <div class="features-text">
+              <h1>Fast</h1>
+              <p>Fast load times and lag free interaction, my highest priority.</p>
+            </div>
+
+          </div>
+
+        </div>
+  
+        <!-- Second Item  -->
+        <div class="col-md-3 col-xs-6 features-item col-sm-6">
+
+          <div class="pentagon text-center position-relative">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="icon"><img src="images/feature-responsive.png" width="50%" height="100%" alt=""></span>
+            <div class="features-text">
+              <h1>Responsive</h1>
+              <p>My layouts will work on any device, big or small.</p>
+            </div>
+          </div>
+
+        </div>
+  
+        <!-- 3th Item  -->
+        <div class="col-md-3 col-xs-6  features-item col-sm-6 ">
+          <div class="pentagon text-center position-relative">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="icon"><img src="images/light2.png" width="100%" height="100%" alt=""></span>
+            <div class="features-text">
+              <h1>Intuitive</h1>
+              <p>Strong preference for easy to use, intuitive UX/UI.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- 4th Item  -->
+        <div class="col-md-3 col-xs-6  features-item col-sm-6">
+          <div class="pentagon text-center position-relative">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="icon"><img src="images.min/feature-zombie.png" width="100%" height="100%" alt=""></span>
+            <div class="features-text">
+              <h1>Dynamic</h1>
+              <p>Websites don't have to be static, I love making pages come to life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End Section Fetures -->
+
+<div style="height: 30px;"></div>
+
+  <section class="some-info" >
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-md-12 col-lg-6 info-text">
+          <h1>More Information About My Personality</h1>
+          <h5>
+
+              My name is Essam Ayman Alhelo, I was born in 1998, I'm Jordanian nationality, and I now live in Jordan/ Amman/ Tabarbour. In 2016 I start studying at Philadelphia University in Software Engineering and the final rate was 78 percent and the estimate is very good. My graduation was on 15/August 2020 so I have not yet worked in any company and now I am looking for a job in order to increase my experience in designing programs. I discovered that I tend to program designs well and appropriately on all windows of devices, which is fast, and I have a lot of skills To help me do that, now I'm going to show you below with the projects I did on my own.
+
+          </h5>
+        </div>
+
+        <!-- <div class="col-offset-2"></div> -->
+        <div class="col-md-12 col-lg-6 info-img text-right"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="more-info" >
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-12 col-lg-5 more-img">
+          <div class="owl-carousel owl-theme">
+
+            <div class="item"><img src="images.min/IMG_0041.JPG"  alt="incorrect Path img"></div>
+            <div class="item"><img src="images.min/IMG_0014.JPG"  alt="incorrect Path img"></div>
+            <div class="item"><img src="images.min/IMG_0264.JPEG" alt="incorrect Path img"></div>
+            <div class="item"><img src="images.min/IMG_1722.JPEG" alt="incorrect Path img"></div>
+            <div class="item"><img src="images.min/IMG_1846.JPEG" alt="incorrect Path img"></div>
+            <div class="item"><img src="images.min/slider_9.JPEG" alt="incorrect Path img"></div>
+
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 advantages ">
+          <div class="positive ">
+            <span class="user-select-none">1</span>
+            Willing to learn new technologies.
+          </div>
+          <div class="positive">
+            <span class="user-select-none">2</span>
+            Programmers' skills requirements.
+          </div>
+          <div class="positive">
+            <span class="user-select-none">3</span>
+            Analytical and problem-solving skills.
+          </div>
+          <div class="positive">
+            <span class="user-select-none">4</span>
+            Good communication skills with teams.
+          </div>
+          <div class="positive">
+            <span class="user-select-none">5</span>
+            Works well on the team and is active.
+          </div>
+          <div class="positive">
+            <span class="user-select-none">6</span>
+            The ability to meet deadlines.
+          </div>
+          <div class="positive">
+            <span class="user-select-none">7</span>
+            Good performance under pressure.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="saparetor"></section>
+
+
+  <section class="skills" id="skillsSection">
+    <div class="container">
+      <div class="title">
+        <h1>My Skills</h1>
+      </div>
+      <div class="row">
+
+        <div class="col-md-12 col-lg-6 skills-img user-select-none">
+          <img src="images.min/IMG_1872.JPG" width="100%" height="100%" alt="Incorrect Path Images">
+        </div>
+        <div class="col-md-12 col-lg-6 skills-statics">
+          <h2 >My knowledge In <br> Web Development Programming</h2>
+
+          <!-- START STATICS -->
+
+          <div class="parentSpan position-relative">
+            <span class="CouresName">HTML& HTML5 </span>
+            <span class="statics" data-statics="95"></span>
+            <span class="numberOfStatics">95%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Css & Css3</span>
+            <span class="statics" data-statics="93"></span>
+            <span class="numberOfStatics">93%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">JavaScript</span>
+            <span class="statics" data-statics="78"></span>
+            <span class="numberOfStatics">78%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">JQuery</span>
+            <span class="statics" data-statics="79"></span>
+            <span class="numberOfStatics">79%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Bootstrap v3/4/5</span>
+            <span class="statics" data-statics="82"></span>
+            <span class="numberOfStatics">82%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Sass</span>
+            <span class="statics" data-statics="85"></span>
+            <span class="numberOfStatics">85%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Pug JS</span>
+            <span class="statics" data-statics="72"></span>
+            <span class="numberOfStatics">72%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Command Line</span>
+            <span class="statics" data-statics="84"></span>
+            <span class="numberOfStatics">84%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Git & GitHup</span>
+            <span class="statics" data-statics="72"></span>
+            <span class="numberOfStatics">72%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Ajax</span>
+            <span class="statics" data-statics="75"></span>
+            <span class="numberOfStatics">75%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Json</span>
+            <span class="statics" data-statics="81"></span>
+            <span class="numberOfStatics">81%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">OOP JavaScript</span>
+            <span class="statics" data-statics="67"></span>
+            <span class="numberOfStatics">67%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">EcmaScript6</span>
+            <span class="statics" data-statics="0"></span>
+            <span class="numberOfStatics"></span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Gulp JS</span>
+            <span class="statics" data-statics="0"></span>
+            <span class="numberOfStatics"></span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">Testing By Jest</span>
+            <span class="statics" data-statics="0"></span>
+            <span class="numberOfStatics"></span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">VueJS</span>
+            <span class="statics" data-statics="70"></span>
+            <span class="numberOfStatics">70%</span>
+          </div>
+          <div class="parentSpan position-relative">
+            <span class="CouresName">React Js</span>
+            <span class="statics" data-statics="0"></span>
+            <span class="numberOfStatics"></span>
+          </div>
+
+          <!-- END STATICS -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="portfolios" id="portfolioSection">
+    <div class="container">
+      <div class="title">
+        <h1>
+          My Portfolios
+        </h1>
+      </div>
+      <h5 class="text-center">I graduated just one month ago and I will do more, more and more projects.</h5>
+      <div class="row">
+
+        <ul class="list-unstyled">
+          <li class="first-li" data-tab="projectOne">
+            <span class="back"></span>
+            <span class="front">Project-1</span>
+          </li>
+          <li class="first-li" data-tab="projectTwo">
+            <span class="back"></span>
+            <span class="front">Project-2</span>
+          </li>
+          <li class="first-li" data-tab="projectSix">
+            <span class="back"></span>
+            <span class="front">Project-3</span>
+          </li>
+          <li class="first-li" data-tab="projectFive">
+            <span class="back"></span>
+            <span class="front">Project-4</span>
+          </li>
+          <li class="first-li" data-tab="projectFour">
+            <span class="back"></span>
+            <span class="front">Project-5</span>
+          </li>
+          <li class="first-li" data-tab="projectThree">
+            <span class="back"></span>
+            <span class="front">Project-6</span>
+          </li>
+        </ul>
+
+        <div class="project-info active" id="projectOne">
+          <h1 class="text-center">kindergarten Website</h1>
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="project-bk-img"></div>
+            </div>
+            <div class="col-sm-7 tabs">
+              <ul class="list-unstyled ">
+                <li  class="user-select-none">Project Description 
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </span> 
+              </li>
+
+              <p class="toggleItem"> I created a kindergarten site and designed a front end that attracts students ’families ... The site has a database, but I have not added it to the server.</p>
+                <li class="user-select-none"> Languages Used
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow  bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+  
+                  </span> 
+                </li>
+                <p class="toggleItem"> Asp.Net(HTML5 - Css3 - Bootstrap 4 - JQuery) with dataBase for student , Teachers and Adminstrators </p>
+                <li class="user-select-none">Time Elapsed
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                  </span> 
+                </li>
+                <p class="toggleItem"> a month and a half </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project-info" id="projectTwo">
+          <h1 class="text-center">Resturent Website</h1>
+
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="project-bk-img"></div>
+            </div>
+            <div class="col-sm-7 tabs">
+              <ul class="list-unstyled ">
+                <li  class="user-select-none">Project Description 
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </span> 
+              </li>
+
+              <p class="toggleItem"> I have made a site for a restaurant that contains many of the meals offered by the restaurant itself and also contains pictures of the restaurant to attract customers.</p>
+                <li class="user-select-none"> Languages Used
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow  bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+  
+                  </span> 
+                </li>
+                <p class="toggleItem"> HTML5 - Css3 -Bootstrap - only JavaScript Without Jquery </p>
+                <li class="user-select-none">Time Elapsed
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                  </span> 
+                </li>
+                <p class="toggleItem"> Two Weeks  </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project-info" id="projectSix">
+          <h1 class="text-center">Clothes Website</h1>
+
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="project-bk-img"></div>
+            </div>
+            <div class="col-sm-7 tabs">
+              <ul class="list-unstyled ">
+                <li  class="user-select-none">Project Description 
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </span> 
+              </li>
+
+              <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none"> Languages Used
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow  bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+  
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none">Time Elapsed
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="project-info" id="projectThree">
+          <h1 class="text-center">Quiz App</h1>
+
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="project-bk-img"></div>
+            </div>
+            <div class="col-sm-7 tabs">
+              <ul class="list-unstyled ">
+                <li  class="user-select-none">Project Description 
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+
+                </span> 
+              </li>
+
+              <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none"> Languages Used
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow  bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+  
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none">Time Elapsed
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project-info" id="projectFour">
+          <h1 class="text-center">ToDoList App</h1>
+
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="project-bk-img"></div>
+            </div>
+            <div class="col-sm-7 tabs">
+              <ul class="list-unstyled ">
+                <li  class="user-select-none">Project Description 
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+
+                </span> 
+              </li>
+
+              <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none"> Languages Used
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow  bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+  
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none">Time Elapsed
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="project-info " id="projectFive">
+          <h1 class="text-center">Curriculum vitae Website</h1>
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="project-bk-img">
+                <div class="layout">
+                  <span class="text-center">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrows-fullscreen" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.464 10.536a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3.5a.5.5 0 0 1-.5-.5v-3.5a.5.5 0 0 1 .5-.5z"/>
+                      <path fill-rule="evenodd" d="M5.964 10a.5.5 0 0 1 0 .707l-4.146 4.147a.5.5 0 0 1-.707-.708L5.257 10a.5.5 0 0 1 .707 0zm8.854-8.854a.5.5 0 0 1 0 .708L10.672 6a.5.5 0 0 1-.708-.707l4.147-4.147a.5.5 0 0 1 .707 0z"/>
+                      <path fill-rule="evenodd" d="M10.5 1.5A.5.5 0 0 1 11 1h3.5a.5.5 0 0 1 .5.5V5a.5.5 0 0 1-1 0V2h-3a.5.5 0 0 1-.5-.5zm4 9a.5.5 0 0 0-.5.5v3h-3a.5.5 0 0 0 0 1h3.5a.5.5 0 0 0 .5-.5V11a.5.5 0 0 0-.5-.5z"/>
+                      <path fill-rule="evenodd" d="M10 9.964a.5.5 0 0 0 0 .708l4.146 4.146a.5.5 0 0 0 .708-.707l-4.147-4.147a.5.5 0 0 0-.707 0zM1.182 1.146a.5.5 0 0 0 0 .708L5.328 6a.5.5 0 0 0 .708-.707L1.889 1.146a.5.5 0 0 0-.707 0z"/>
+                      <path fill-rule="evenodd" d="M5.5 1.5A.5.5 0 0 0 5 1H1.5a.5.5 0 0 0-.5.5V5a.5.5 0 0 0 1 0V2h3a.5.5 0 0 0 .5-.5z"/>
+                    </svg>
+                  </span>
+                </div>
+                <div class="popup-full-img">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z"/>
+                    <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z"/>
+                  </svg>
+                  <div class="img-popup">
+                    <!-- <img src="images/kinkston2.png" width="100%" height="100%" alt=""> -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-7 tabs">
+              <ul class="list-unstyled ">
+                <li  class="user-select-none">Project Description 
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </span> 
+              </li>
+
+              <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none"> Languages Used
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow  bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+
+  
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+                <li class="user-select-none">Time Elapsed
+                  <span class="float-right subsitution-arrow">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="toggleDownArrow bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                  </span> 
+                </li>
+                <p class="toggleItem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eligendi distinctio doloremque, est illo, porro expedita nihil tempore asperiores ratione voluptas hic sapiente, magni praesentium debitis ullam odit qui.</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="saparetor num2"></section>
+
+  <section class="images" id="imagesSection">
+    <div class="container">
+      <div class="title">
+        <h1> My Images </h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4 image  ">
+          <img class="img-responsive" src="images.min/InkedIMG_0682_LI.jpg" width="100%" height="100%" alt="Incorrect Path Image">
+        </div>
+        <div class="col-md-4 image img-responsive">
+          <img class="img-responsive" src="images.min/IMG_3790.JPG" width="100%" height="100%" alt="Incorrect Path Image">
+        </div>
+        <div class="col-md-4 image img-responsive">
+          <img class="img-responsive" src="images.min/IMG_1846.JPEG" width="100%" height="100%" alt="Incorrect Path Image">
+        </div>
+        <div class="col-md-4 image img-responsive">
+          <img class="img-responsive" src="images.min/IMG_0716.JPEG" width="100%" height="100%" alt="Incorrect Path Image">
+        </div>
+        <div class="col-md-4 image img-responsive">
+          <img class="img-responsive" src="images.min/IMG_4086.JPG"width="100%" height="100%" alt="Incorrect Path Image">
+        </div>
+        <div class="col-md-4 image img-responsive">
+          <img class="img-responsive " src="images.min/IMG_4031.JPG"width="100%" height="100%" alt="Incorrect Path Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contactSection">
+  <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="125" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+    <path d="M0 0 L50 100 L100 0 Z" fill="#007399" stroke="#007399"></path>
+  </svg>
+    <div class="container">
+      <div class="title title-contact">
+        <h1>Contact Me</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4 my-info">
+          <h1><span>L</span>ocation</h1>
+          <p><span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path d="M7.5 4h1v9a.5.5 0 0 1-1 0V4z"/>
+            <path fill-rule="evenodd" d="M6.489 12.095a.5.5 0 0 1-.383.594c-.565.123-1.003.292-1.286.472-.302.192-.32.321-.32.339 0 .013.005.085.146.21.14.124.372.26.701.382.655.246 1.593.408 2.653.408s1.998-.162 2.653-.408c.329-.123.56-.258.701-.382.14-.125.146-.197.146-.21 0-.018-.018-.147-.32-.339-.283-.18-.721-.35-1.286-.472a.5.5 0 1 1 .212-.977c.63.137 1.193.34 1.61.606.4.253.784.645.784 1.182 0 .402-.219.724-.483.958-.264.235-.618.423-1.013.57-.793.298-1.855.472-3.004.472s-2.21-.174-3.004-.471c-.395-.148-.749-.336-1.013-.571-.264-.234-.483-.556-.483-.958 0-.537.384-.929.783-1.182.418-.266.98-.47 1.611-.606a.5.5 0 0 1 .595.383z"/>
+          </svg></span> Jordan / Amman / Tabarbour</p>
+          <h1><span>C</span>all Me</h1>
+          <p><span>  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg></span>+962787104543</p>
+          <h1><span>M</span>y Email</h1>
+          <p><span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+          </svg></span> essamalhelo98@gmail.com</p>
+        </div>
+        
+        <div class="col-md-8 send-email">
+          <form method="POST" action="portfolios.php">
+            <input type="text" name="userName" placeholder="Your Name">
+            <input type="email" name="userEmail" placeholder="Your Email">
+            <textarea name="userMessage" placeholder="Write Your Message Here"></textarea>
+            <input name="userSubmit" class="btn btn-secondary" type="submit" value="Send">
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+
+  <div class="scroll-up">
+    <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-10.646.354a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 6.207V11a.5.5 0 0 1-1 0V6.207L5.354 8.354z"/>
+    </svg>
+  </div>
+
+  
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owlCursore10.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/portifolio.js"></script>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+
+  <footer>
+    <div class=" social-media">
+      <div class="container text-center">
+
+        <a href="https://web.facebook.com/esam.ayman">
+          <i class="facebook fab fa-facebook-f"></i>
+        </a>
+         
+        <a href="https://twitter.com/EssamAlhelo">
+          <i class="twitter fab fa-twitter"></i>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/essam-alhelo-7ba3ba161/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/Essam98">
+          <i class="fab fa-github"></i>
+        </a>
+        
+        
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+
+
+</html>
